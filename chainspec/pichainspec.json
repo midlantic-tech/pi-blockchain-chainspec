@@ -8,7 +8,10 @@
                     "multi": {
                         "0": {
 			    "list": ["0xde563309e2b5b103a4a9e0975881552861f6c176"]
-			}
+			},
+                        "300": {
+                            "contract": "0xedcff623f42c4dce10a0f3a7213adc917f1542b1"
+                        }
                     }
                 },
 		"blockRewardContractAddress": "0x0000000000000000000000000000000000000009"
@@ -32,7 +35,8 @@
         "eip161dTransition": "0x0",
         "eip98Transition": "0x7fffffffffffff",
         "maxCodeSize": 24576,
-        "maxCodeSizeTransition": "0x0"
+        "maxCodeSizeTransition": "0x0",
+		"registrar": "0x9b5da2ad1b2c27437da86b18b1f2dca3e58fc5c0"
     },
     "genesis": {
         "seal": {
